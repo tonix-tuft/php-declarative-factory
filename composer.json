@@ -1,0 +1,29 @@
+{
+  "name": "tonix-tuft/php-declarative-factory",
+  "description": "A factory for PHP with a declarative API.",
+  "keywords": [
+    "factory",
+    "abstract-factory",
+    "declarative",
+    "declarative-factory"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Anton Bagdatyev (Tonix)",
+      "email": "antonytuft@gmail.com"
+    }
+  ],
+  "type": "library",
+  "require": {
+    "php": "^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "DeclarativeFactory\\": "src/DeclarativeFactory/"
+    }
+  }
+}
