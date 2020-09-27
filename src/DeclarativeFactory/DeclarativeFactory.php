@@ -29,6 +29,8 @@ namespace DeclarativeFactory;
 
 /**
  * Declarative factory.
+ *
+ * @author Anton Bagdatyev (Tonix) <antonytuft@gmail.com>
  */
 class DeclarativeFactory {
   /**
